@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/amaranth</item>
+        <item>@font/candal</item>
+        <item>@font/capriola</item>
+        <item>@font/chango</item>
+        <item>@font/coiny</item>
+        <item>@font/comfortaa</item>
+        <item>@font/coustard</item>
+        <item>@font/cutive</item>
+        <item>@font/delius</item>
+        <item>@font/headland_one</item>
+        <item>@font/love_ya_like_a_sister</item>
+        <item>@font/mclaren</item>
+        <item>@font/molengo</item>
+        <item>@font/quando</item>
+        <item>@font/short_stack</item>
+        <item>@font/tauri</item>
+        <item>@font/voces</item>
+    </array>
+</resources>

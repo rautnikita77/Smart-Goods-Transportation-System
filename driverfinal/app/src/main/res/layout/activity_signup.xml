@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#0D4953"
+        android:orientation="vertical"
+        tools:context=".signup">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Register"
+                android:textColor="#d9d9d9"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:layout_toLeftOf="@id/tvText"
+                android:background="#d9d9d9" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="100dp"
+                android:layout_toRightOf="@id/tvText"
+                android:background="#d9d9d9" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/f_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="First Name"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/l_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Last Name"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:singleLine="false" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Password"
+            android:paddingLeft="20dp"
+            android:password="true" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Mobile Number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/owner"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Owner Email No"
+            android:paddingLeft="20dp" />
+
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
+            android:text="Car Type:"
+            android:textColor="#ffffff"
+             />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/typea"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Type A"
+                android:checked="true"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                 />
+
+
+            <RadioButton
+                android:id="@+id/typeb"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Type B"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+
+                />
+
+            <RadioButton
+                android:id="@+id/typec"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Type C"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                 />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/reg_no"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Car Reg Number"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/licence_no"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-light"
+            android:hint="Driver Licence Number"
+            android:paddingLeft="20dp" />
+
+
+
+        <Button
+            android:id="@+id/registration"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/button"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/acme"
+            android:radius="5dp"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
+            android:text="Don't have an account?  Sign Up"
+            android:textColor="#d9d9d9"
+            android:layout_marginBottom="20dp"
+            android:textColorLink="@color/colorAccent"
+            tools:paddingTop="7dp" />
+
+
+    </LinearLayout>
+    </ScrollView>

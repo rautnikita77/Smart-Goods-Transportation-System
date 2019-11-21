@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1048956569474-ts8p2mri8013j9ool3ktt33bvprf181m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://driver-445b4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1048956569474</string>
+    <string name="google_api_key" translatable="false">AIzaSyCj7P33pyjJhPbbA01exM1uPXbbYclZsPk</string>
+    <string name="google_app_id" translatable="false">1:1048956569474:android:c8a61a90b9b63431</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCj7P33pyjJhPbbA01exM1uPXbbYclZsPk</string>
+    <string name="google_storage_bucket" translatable="false">driver-445b4.appspot.com</string>
+    <string name="project_id" translatable="false">driver-445b4</string>
+</resources>

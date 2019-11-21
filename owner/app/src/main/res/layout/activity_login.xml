@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0D4953"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/icon" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Login"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"
+            android:textColor="#d9d9d9"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:layout_toLeftOf="@id/tvText"
+            android:background="#d9d9d9"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="100dp"
+            android:layout_toRightOf="@id/tvText"
+            android:background="#d9d9d9"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview_border"
+        android:hint="Email"
+
+        android:fontFamily="sans-serif-light"
+        android:inputType="textEmailAddress"
+        android:singleLine="false"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:hint="Password"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/acme"
+        android:textColor="#ffffff"
+        android:radius="5dp"
+        android:text="login" />
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:text="Don't have an account?  Sign Up"
+        android:textColor="#d9d9d9"
+        android:textColorLink="@color/colorAccent"
+        tools:paddingTop="7dp" />
+
+
+</LinearLayout>

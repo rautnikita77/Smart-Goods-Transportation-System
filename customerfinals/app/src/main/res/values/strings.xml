@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">customer</string>
+    <string name="title_activity_home">Map</string>
+    <string name="title_activity_home1">Map</string>
+    <string name="title_activity_home2">Map</string>
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Password must contain atleast 1 uppercase, 1 lowercase and 1 number</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="aadharerror">Enter 12 digits of Aadhar Card</string>
+    <string name="passworderror1">Password cannot be empty</string>
+    <string name="emailerror1">Email cannot be empty</string>
+</resources>

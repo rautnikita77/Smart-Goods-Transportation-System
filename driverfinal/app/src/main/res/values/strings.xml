@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">driver</string>
+    <string name="title_activity_home">Map</string>
+    <string name="title_activity_home1">Map</string>
+    <string name="title_activity_home2">Map</string>
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password(at least 1 uppercase,1 lowercase and 1 digit)</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="registrationerror">Enter Valid Registration Number</string>
+    <string name="licenseerror">Enter Valid License Number</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="passworderror1">Password cannot be empty</string>
+    <string name="emailerror1">Email cannot be empty</string>
+    <string-array name="cars_array">
+        <item>Micro</item>
+        <item>Moderate</item>
+        <item>XL</item>
+    </string-array>
+</resources>
